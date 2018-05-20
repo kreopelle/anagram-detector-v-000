@@ -12,6 +12,6 @@ class Angram
   end
 
   def match
-    
+    matches = []
 
 end
