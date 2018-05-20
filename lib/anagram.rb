@@ -17,6 +17,9 @@ class Angram
     test_words = some_words.split(" ")
     test_words.collect do |word|
       word.split("").sort
+    end 
+    original_word = @word.split("").sort
+    
 
 
 
