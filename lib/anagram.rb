@@ -15,6 +15,9 @@ class Angram
     matches = []
     test_words = []
     test_words = some_words.split(" ")
-    
+    test_words.collect do |word|
+      word.split("").sort
+
+
 
 end
