@@ -5,6 +5,6 @@
 # .split("") and .sort as tips
 
 class Angram
+  attr_accessor :word
 
-  
 end
