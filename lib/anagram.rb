@@ -11,7 +11,7 @@ class Angram
     @word = word
   end
 
-  def match
+  def match(some_words)
     matches = []
 
 end
