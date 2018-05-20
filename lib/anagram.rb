@@ -16,8 +16,7 @@ class Angram
     test_words = some_words.split(" ")
     original_word = @word.split("").sort
     test_words.collect do |word|
-      word.split("").sort
-      match <<
+      match << word if original_word == word.split("").sort
     end
 
 
