@@ -13,12 +13,12 @@ class Angram
 
   def match(some_words)
     matches = []
-    test_words = []
     test_words = some_words.split(" ")
+    original_word = @word.split("").sort
     test_words.collect do |word|
       word.split("").sort
-    end 
-    original_word = @word.split("").sort
+    end
+    
     
 
 
