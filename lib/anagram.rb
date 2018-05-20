@@ -13,7 +13,8 @@ class Angram
 
   def match(some_words)
     matches = []
-    some_words.split(" ")
+    test_words = []
+    test_words = some_words.split(" ")
     
 
 end
