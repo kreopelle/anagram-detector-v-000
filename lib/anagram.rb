@@ -4,7 +4,7 @@
 # match method - returns matches in an array, if no matches, empty array
 # .split("") and .sort as tips
 
-class Angram
+class Anagram
   attr_accessor :word
 
   def initialize(word)
