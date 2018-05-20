@@ -11,6 +11,7 @@ class Angram
     @word = word
   end
 
-  
+  def match
+    
 
 end
