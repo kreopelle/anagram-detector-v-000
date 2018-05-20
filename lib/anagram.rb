@@ -14,7 +14,7 @@ class Anagram
   def match(some_words)
     match = []
     original_word = @word.split("").sort
-    some_words.each do |word|
+    some_words.select do |word|
       match << word if original_word == word.split("").sort
     end
   end
