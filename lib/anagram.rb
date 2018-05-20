@@ -18,10 +18,6 @@ class Angram
     test_words.collect do |word|
       match << word if original_word == word.split("").sort
     end
-  end 
-
-
-
-
+  end
 
 end
